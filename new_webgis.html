@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GIS Server.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <ul class="header-menu nav">
+                        <li class="dropdown nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-home"></i> Trang chủ
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-plus"></i> New web gis
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="app-main">
+            <div class="app-main__inner">
+                <div class="form-createwebgis">
+                    <div class="input-form">
+                        <ul>
+                            <li>
+                                <i class="fa fa-list"></i>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Thông tin thuộc tính</label>
+                            </li>
+                            <li>
+                                <i class="fas fa-level-up-alt"></i>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Chỉ đường</label>
+                            </li>
+                            <li>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Not Selected</label>
+                            </li>
+                            <li>
+                                <i class="fa fa-search"></i>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Tìm kiếm theo tên</label>
+                            </li>
+                            <li>
+                                <i class="fas fa-chart-line"></i>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Biểu đồ báo cáo</label>
+                            </li>
+                            <li>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> selected</label>
+                            </li>
+                            <li>
+                                <i class="fas fa-layer-group"></i>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Layer Group</label>
+                            </li>
+                            <li>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Các loại bản đổ</label>
+                            </li>
+                            <li>
+                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> indeterminate</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button-form">
+                        <ul>
+                            <li><button class="btn btn-primary">Save</button></li>
+                            <li><button class="btn btn-info">Run</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="background-map new-webgispage">
+                    <div class="map">
+                        <div class="button-map-group">
+                            <ul>
+                                <li>
+                                    <button>
+                                        <i class="fas fa-level-up-alt"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <i class="fas fa-layer-group"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                            <i class="fa fa-plus"></i>
+                                        </button>
+                                </li>
+                                <li>
+                                    <button>
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                </li>
+                                <li>
+                                    <button>
+                                            <i class="fa fa-map"></i>
+                                        </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="boxsearch-map-group">
+                            <div class="search-wrapper active">
+                                <div class="input-holder">
+                                    <input type="text" class="search-input" placeholder="Type to search">
+                                    <button class="search-icon"><span></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="type-map-group">
+                            <ul>
+                                <li><button>Bản đồ</button></li>
+                                <li><button>Vệ tinh</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+
+</html>

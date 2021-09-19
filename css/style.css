@@ -43,3 +43,74 @@
 .boxsearch-map-group .search-wrapper.active .input-holder {
     background-color: #fff;
 }
+
+.form-createwebgis {
+    padding: 10px 20px;
+    display: flex;
+}
+
+.form-createwebgis .input-form {
+    width: 80%;
+    font-size: 17px;
+}
+
+.form-createwebgis .input-form ul li {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.form-createwebgis .input-form ul li i {
+    font-size: 18px;
+    position: absolute;
+    top: 3px;
+    left: 0
+}
+
+.form-createwebgis .input-form ul,
+.form-createwebgis .button-form ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-createwebgis .input-form ul li {
+    width: 33%;
+    display: inline-block;
+}
+
+.form-createwebgis .button-form {
+    width: 20%;
+}
+
+.form-createwebgis .button-form ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.new-webgispage .boxsearch-map-group {
+    left: 20px;
+}
+
+.new-webgispage .button-map-group {
+    top: 80px
+}
+
+.new-webgispage .type-map-group {
+    position: absolute;
+    right: 20px;
+    top: 20px
+}
+
+.new-webgispage .type-map-group ul {
+    list-style-type: none;
+}
+
+.new-webgispage .type-map-group ul li {
+    display: inline-block;
+}
+
+.new-webgispage .type-map-group ul li button {
+    border: none;
+    width: 80px;
+    height: 30px
+}
