@@ -114,3 +114,16 @@
     width: 80px;
     height: 30px
 }
+
+.pagination {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex.flex-between {
+    justify-content: space-between;
+}
