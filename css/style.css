@@ -127,3 +127,23 @@
 .flex.flex-between {
     justify-content: space-between;
 }
+
+.button-typemap-group {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button-typemap-group ul {
+    display: flex;
+    list-style: none;
+}
+
+.button-typemap-group ul li:not(:last-child) {
+    border-right: 1px solid #333;
+}
+
+.button-typemap-group button {
+    border: none;
+    padding: 5px 10px
+}
