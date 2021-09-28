@@ -58,50 +58,7 @@
         </div>
         <div class="app-main">
             <div class="app-main__inner">
-                <div class="form-createwebgis">
-                    <div class="input-form">
-                        <ul>
-                            <li>
-                                <i class="fa fa-list"></i>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Thông tin thuộc tính</label>
-                            </li>
-                            <li>
-                                <i class="fas fa-level-up-alt"></i>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Chỉ đường</label>
-                            </li>
-                            <li>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Not Selected</label>
-                            </li>
-                            <li>
-                                <i class="fa fa-search"></i>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Tìm kiếm theo tên</label>
-                            </li>
-                            <li>
-                                <i class="fas fa-chart-line"></i>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Biểu đồ báo cáo</label>
-                            </li>
-                            <li>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> selected</label>
-                            </li>
-                            <li>
-                                <i class="fas fa-layer-group"></i>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Layer Group</label>
-                            </li>
-                            <li>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> Các loại bản đổ</label>
-                            </li>
-                            <li>
-                                <label class="form-check-label"><input type="checkbox" class="form-check-input"> indeterminate</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="button-form">
-                        <ul>
-                            <li><button class="btn btn-primary">Save</button></li>
-                            <li><button class="btn btn-info">Run</button></li>
-                        </ul>
-                    </div>
-                </div>
+
                 <div class="background-map new-webgispage">
                     <div class="map">
                         <div class="button-map-group">
@@ -146,6 +103,94 @@
                                 <li><button>Bản đồ</button></li>
                                 <li><button>Vệ tinh</button></li>
                             </ul>
+                        </div>
+                        <div class="form-createwebgis">
+                            <div class="input-form">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-list"></i>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Thông tin thuộc tính</label>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-level-up-alt"></i>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Chỉ đường</label>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-search"></i>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Tìm kiếm theo tên</label>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chart-line"></i>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Biểu đồ báo cáo</label>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-layer-group"></i>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Layer Group</label>
+                                    </li>
+                                    <li>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Các loại bản đổ</label>
+                                    </li>
+                                    <li>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> selected</label>
+                                    </li>
+                                    <li>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Not Selected</label>
+                                    </li>
+                                    <li>
+                                        <label class="form-check-label"><input type="checkbox" class="form-check-input"> indeterminate</label>
+                                    </li>
+                                    <li>
+                                        <div class="d-inline-block dropdown">
+                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-success">
+                                                Chọn lớp dữ liệu
+                                            </button>
+                                            <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(149px, 33px, 0px);">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);" class="nav-link">
+                                                            <i class="nav-link-icon lnr-inbox"></i>
+                                                            <span>
+                                                                GeoTif
+                                                            </span>
+                                                            <div class="ml-auto"><i class="fa fa-upload"></i></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);" class="nav-link">
+                                                            <i class="nav-link-icon lnr-inbox"></i>
+                                                            <span>
+                                                                ShapeFile
+                                                            </span>
+                                                            <div class="ml-auto"><i class="fa fa-upload"></i></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="javascript:void(0);" class="nav-link">
+                                                            <i class="nav-link-icon lnr-inbox"></i>
+                                                            <span>
+                                                                GeoDatabase
+                                                            </span>
+                                                            <div class="ml-auto"><i class="fa fa-upload"></i></div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="btn btn-primary">Save</button>
+                                        <button class="btn btn-info">Run</button>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="button-form">
+                                <ul>
+                                    <li><button class="btn btn-primary">Save</button></li>
+                                    <li><button class="btn btn-info">Run</button></li>
+                                </ul>
+                            </div> -->
                         </div>
                     </div>
                 </div>
