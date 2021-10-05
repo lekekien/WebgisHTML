@@ -156,3 +156,51 @@
     border: none;
     padding: 5px 10px
 }
+
+.card-blur {
+    box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%), 0 0.9375rem 1.40625rem rgb(4 9 20 / 3%), 0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 0 0.125rem 0.1875rem rgb(4 9 20 / 3%);
+}
+
+.card-blur .card-title {
+    text-align: center;
+}
+
+.card-blur .link {
+    color: #0DB39E
+}
+
+.card-blur:hover {
+    transform: scale(1.03);
+    transition: all ease-in .3s;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+.card-blur .description {
+    height: 100px;
+    overflow: hidden;
+}
+
+.card-blur img {
+    object-fit: contain;
+}
+
+.api ul {
+    list-style: none;
+    padding: 0
+}
+
+.api ul li {
+    margin-bottom: 15px;
+}
+
+.api ul li a {
+    color: #df9d00
+}
+
+.api h2,
+.api h3 {
+    font-weight: bold;
+}
